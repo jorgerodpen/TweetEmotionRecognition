@@ -23,6 +23,7 @@ The original data was downloaded from [tweeteval](https://github.com/cardiffnlp/
 	- The best MLP model was trained with 1-grams and with stopwords removed
 
 
+## Specifications 
 ===== **Jupyter Notebooks** =====
 
 All jupyter notebooks are available as ipynb and html files
@@ -32,6 +33,7 @@ All jupyter notebooks are available as ipynb and html files
 - MLP_tuning: Contains the grid-searches for the MLP parameters with the different approaches to handle data imbalance. 
 - results_discussion: The results for the grid-searches are analysed and the best models are saved. 
 - Model_Testing: Contains all the necessary code to run and test the two best models. 
+
 
 ===== **Folders** =====
 
