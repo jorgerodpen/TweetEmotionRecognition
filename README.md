@@ -22,6 +22,9 @@ The original data was downloaded from [tweeteval](https://github.com/cardiffnlp/
 	- The best SVM model was trained with 1-grams and with stopwords removed
 	- The best MLP model was trained with 1-grams and with stopwords removed
 
+## EDA
+Word clouds for each class:
+![Wordcloud](https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/wordcloud.png)
 
 ## Specifications 
 ===== **Jupyter Notebooks** =====
