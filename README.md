@@ -24,7 +24,8 @@ The original data was downloaded from [tweeteval](https://github.com/cardiffnlp/
 
 ## EDA
 Word clouds for each class:
-<img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/wordcloud.png" width="300">
+
+<img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/wordcloud.png" width="600">
 
 Heatmaps for different hyper-parameter combinations for the SVM (regularization and gamma) and the MLP (number of hidden layers and the dimension of the hidden layers). The score measures the weighted F1 score:
 ![Heatmap](https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/heatmaps.png)
