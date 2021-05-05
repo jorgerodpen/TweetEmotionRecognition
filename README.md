@@ -1,18 +1,27 @@
 # Tweet Emotions Recognition
-
-- Downloaded the original Tweets from [tweeteval](https://github.com/cardiffnlp/tweeteval) repo. 
-- Cleaned the original files to create a train and test sets (75% and 25% respectively). 
-- Grid-searched a MLP and a SVM to look for the optimal hyper-parameters.
+ 
+- Created two classifiers (an MLP and a SVM) for Tweet emotion detection: <code>anger</code>, <code>joy</code>, <code>sadness</code> and <code>optimism</code>. 
+- Grid-searched the MLP and the SVM to look for the optimal hyper-parameters.
 - Used random undersampling, random oversampling and SMOTE to handle data imbalance. 
 - The best SVM model had an F1 weighted score of 0.665 and was trained with the original data
 - The best MLP model had an F1 weighted score of 0.601 and was trained with SMOTE applied to the training data. 
 
-# Packages
+## Packages
 **Python Version:** 3.8.3
 
-** Packages used:** pyspark, pandas, numpy, scikit-larn, imblearn, matplotlib, seaborn, pytroch, skorch
+**Packages used:** pyspark, pandas, numpy, scikit-larn, imblearn, matplotlib, seaborn, pytroch, skorch
 
-** Requirements:** <code>pip install -r requirements.txt</code>
+**Requirements:** <code>pip install -r requirements.txt</code>
+
+## Source of data
+The original data was downloaded from [tweeteval](https://github.com/cardiffnlp/tweeteval) repo, from the folder *Emotion Recognition*. 
+
+## Data cleaning
+- Merged all the datasets and split them in 75% training set and 25% test set. 
+- Parsed the Tweets with a bag of n-grams approach. 
+	- The best SVM model was trained with 1-grams and with stopwords removed
+	- The best MLP model was trained with 1-grams and with stopwords removed
+
 
 ===== **Jupyter Notebooks** =====
 
