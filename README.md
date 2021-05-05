@@ -19,17 +19,20 @@ The original data was downloaded from [tweeteval](https://github.com/cardiffnlp/
 ## Data cleaning
 - Merged all the datasets and split them in 75% training set and 25% test set. 
 - Parsed the Tweets with a bag of n-grams approach. 
-	- The best SVM model was trained with 1-grams and with stopwords removed
-	- The best MLP model was trained with 1-grams and with stopwords removed
+	- The best SVM model was trained with 1-grams and with stop-words removed
+	- The best MLP model was trained with 1-grams and with stop-words removed
 
 ## EDA
-Word clouds for each class:
+Word-clouds for each class:
 
 <img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/wordcloud.png" width="600">
 
-Heatmaps for different hyper-parameter combinations for the SVM (regularization and gamma) and the MLP (number of hidden layers and the dimension of the hidden layers). The score measures the weighted F1 score:
+Heat-maps for different hyper-parameter combinations for the SVM (regularisation and gamma) and the MLP (number of hidden layers and the dimension of the hidden layers). The score measures the weighted F1 score:
 
 <img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/heatmaps.png" width="600">
+
+After training the SVM and the MLP with the best hyper-parameters, to look for faults in the classification two confusion matrices were plotted. On the right, word-clouds for the most common misclassified word in each class are added: 
+<img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/matrices.png" width="600">
 
 
 ## Specifications 
