@@ -42,6 +42,10 @@ After training the SVM and the MLP with the best hyper-parameters, to look for f
 | SVM | Original data | 0.665 | 0.665 |
 | MLP | SMOTE | 0.601 | 0.584 | 
 
+SVM trained with a sigmoid kernel, regularisation of 0.25 and gamma of 0.01. 
+
+MLP trained with 100 hidden layers, 10 units per layer each, and a learning rate of 0.01. 
+
 ## Conclusions
 - The SVM outperformed the MLP at the cost of underfitting the minority class <code>optimism</code>
 - The MLP failed at detecting the context of emotion-related words for classification like *angry*, *fun* or *sad*, while the SVM made mistakes with more general words
