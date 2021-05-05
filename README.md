@@ -26,6 +26,10 @@ The original data was downloaded from [tweeteval](https://github.com/cardiffnlp/
 Word clouds for each class:
 ![Wordcloud](https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/wordcloud.png)
 
+Heatmaps for different hyper-parameter combinations for the SVM (regularization and gamma) and the MLP (number of hidden layers and the dimension of the hidden layers). The score measures the weighted F1 score:
+![Heatmap](https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/heatmaps.png)
+
+
 ## Specifications 
 ===== **Jupyter Notebooks** =====
 
