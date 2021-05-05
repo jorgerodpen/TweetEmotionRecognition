@@ -1,4 +1,6 @@
-# Tweet Emotion sRecognition
+# Tweet Emotions Recognition
+
+- Downloaded the original Tweets from [tweeteval](https://github.com/cardiffnlp/tweeteval) repo. 
  
 ===== **Jupyter Notebooks** =====
 
