@@ -7,6 +7,13 @@
 - The best SVM model had an F1 weighted score of 0.665 and was trained with the original data
 - The best MLP model had an F1 weighted score of 0.601 and was trained with SMOTE applied to the training data. 
 
+# Packages
+**Python Version:** 3.8.3
+
+** Packages used:** pyspark, pandas, numpy, scikit-larn, imblearn, matplotlib, seaborn, pytroch, skorch
+
+** Requirements:** <code>pip install -r requirements.txt</code>
+
 ===== **Jupyter Notebooks** =====
 
 All jupyter notebooks are available as ipynb and html files
