@@ -35,6 +35,13 @@ After training the SVM and the MLP with the best hyper-parameters, to look for f
 
 <img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/matrices.png" width="600">
 
+## Best models
+
+| Model | Training data | Validation score | Test score |
+| --- | --- | --- | --- |
+| SVM | Original data | 0.665 | 0.665 |
+| MLP | SMOTE | 0.601 | 0.584 | 
+
 ## Conclusions
 - The SVM outperformed the MLP at the cost of underfitting the minority class <code>optimism</code>
 - The MLP failed at detecting the context of emotion-related words for classification like *angry*, *fun* or *sad*, while the SVM made mistakes with more general words
