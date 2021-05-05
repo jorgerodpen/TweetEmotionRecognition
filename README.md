@@ -32,7 +32,13 @@ Heat-maps for different hyper-parameter combinations for the SVM (regularisation
 <img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/heatmaps.png" width="600">
 
 After training the SVM and the MLP with the best hyper-parameters, to look for faults in the classification two confusion matrices were plotted. On the right, word-clouds for the most common misclassified word in each class are added: 
+
 <img src="https://github.com/jorgerodpen/TweetEmotionRecognition/blob/main/matrices.png" width="600">
+
+## Conclusions
+- The SVM outperformed the MLP at the cost of underfitting the minority class <code>optimism</code>
+- The MLP failed at detecting the context of emotion-related words for classification like *angry*, *fun* or *sad*, while the SVM made mistakes with more general words
+- Given that the context seemed to be ignored in our models, other networks like recurrent neural networks (RNNs) such as long short-term memory might improve the results
 
 
 ## Specifications 
